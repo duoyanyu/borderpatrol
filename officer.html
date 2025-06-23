@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Officer Dashboard</title>
+  <script defer src="script/officer.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h2>Officer Dashboard</h2>
+    <div id="login">
+      <input type="password" id="adminPass" placeholder="Admin password">
+      <button onclick="checkPassword()">Login</button>
+    </div>
+    <div id="dashboard" style="display:none;">
+      <h3>Registered Users</h3>
+      <ul id="usersList"></ul>
+      <h3>Check-Ins</h3>
+      <ul id="checkinsList"></ul>
+    </div>
+  </main>
+</body>
+</html>
